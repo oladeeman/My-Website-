@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    background-image: url(images/codeplanet.jpg);
+    background:linear-gradient(to top black, 50%) url(images/codeplanet.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.nav{
+   width: 1200px;
+   margin: auto;
+   height: 75px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: greenyellow;
+    font-family: arial;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+   float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 82px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration:none;
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: greenyellow;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid greenyellow;
+    margin-top: 13px;
+    color: white;
+    font-size: 16px;
+    float: left;
+    border-right: none;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 42 px;
+    background: greenyellow;
+    border: 2px solid greenyellow;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+
+.srch:focus{
+    outline: none;
+}

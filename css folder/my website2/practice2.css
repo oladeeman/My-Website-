@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    font-family:cursive;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+.bg-color{
+    background-color: #121826;
+}
+
+.text-white{
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.block{
+    display: block;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content:center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.py-18{
+   padding-top: 18px;
+   padding-bottom: 18px;
+}
+
+img
+  
+
+.text{
+    color: white;
+    margin-right: 12px;
+    padding:8px 16px;
+    text-decoration: none;   
+}
+
+.signup{
+    padding:12px 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    background-color: #539d98;
+    border: none;
+    border-radius: 9999px;
+    text-transform: uppercase;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.position{
+    position: relative;
+    
+}
+
+.z-index{
+    position:relative ;
+    z-index: 10;
+}
+
+.margin{
+    margin-right: 12px;
+}
